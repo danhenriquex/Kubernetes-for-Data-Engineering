@@ -1,13 +1,13 @@
-import json
 from datetime import datetime, timedelta
 
-import pandas as pd
-import requests
 from airflow import DAG
 from airflow.operators.python import PythonOperator
 
 
 def get_data(**kwargs):
+    import pandas as pd
+    import requests
+
     url = "https://raw.githubusercontent.com/airscholar/ApacheFlink-SalesAnalytics/main/output/new-output.csv"
     response = requests.get(url)
 
@@ -24,6 +24,10 @@ def get_data(**kwargs):
 
 
 def preview_data(**kwargs):
+    import json
+
+    import pandas as pd
+
     output_data = kwargs["ti"].xcom_pull(key="data", task_ids="get_data")
 
     if output_data:
@@ -47,7 +51,7 @@ def preview_data(**kwargs):
 
 default_args = {
     "owner": "datamasterylab.com",
-    "start_date": datetime(2024, 1, 25),
+    "start_date": datetime(2024, 9, 7),
     "catchup": False,
 }
 
