@@ -9,7 +9,7 @@ default_args = {
     "catchup": False,
 }
 
-dag = DAG("fetch_and_preview", default_args=default_args, schedule=timedelta(days=1))
+dag = DAG("hello_world", default_args=default_args, schedule=timedelta(days=1))
 
 t1 = BashOperator(task_id="hello_world", bash_command='echo "Hello World"', dag=dag)
 

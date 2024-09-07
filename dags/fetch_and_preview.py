@@ -51,7 +51,7 @@ default_args = {
     "catchup": False,
 }
 
-dag = DAG("hello_world", default_args=default_args, schedule=timedelta(days=1))
+dag = DAG("fetch_and_preview", default_args=default_args, schedule=timedelta(days=1))
 
 get_data_from_url = PythonOperator(
     task_id="get_data", python_callable=get_data, dag=dag
