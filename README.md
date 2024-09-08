@@ -43,9 +43,13 @@ This project demonstrates how Kubernetes and Apache Airflow were used to manage 
 
 ```bash
 ├── dags/                          # Contains the DAGs for the Airflow scheduler
-│   ├── example_dag.py             # Example DAG definition
-├── values.yaml                    # Configuration for deploying Airflow using Helm
-├── README.md                      # This file
+│   ├── hello.py	           # Example DAG definition
+    ├── fetch_and_preview.py       # Example DAG definition
+├── k8s                            # Contains the configuration for deploying Airflow using Helm
+│   ├── dashboard-adminuser.yaml	           # 
+    ├── dashboard-clusterrole.yaml       
+    ├── dashboard-secret.yaml 
+├── README.md                      
 └── .gitignore                     # Files ignored by Git
 
 ```
