@@ -6,7 +6,7 @@
  <a href="#overview">Overview</a> •
  <a href="#features">Technologies and Tools Used</a> •
  <a href="#roadmap">Project Structure</a> • 
- <a href="#tecnologias">Getting Started</a> • 
+ <a href="#started">Getting Started</a> • 
  <a href="#learned">What I Learned</a> •
  <a href="#author">Author</a>
 </p>
@@ -54,6 +54,9 @@ This project demonstrates how Kubernetes and Apache Airflow were used to manage 
 
 ```
 </div>
+
+<div id="started">
+	
 
 ### Scripts Overview
 
@@ -109,7 +112,11 @@ To get started with this project, follow these steps:
    
    kubectl port-forward svc/airflow-webserver 8080:8080 --namespace airflow
    ```
-   
+
+</div>
+
+<div id="learned">
+	
 
 ### What I learned
 	
@@ -118,6 +125,8 @@ To get started with this project, follow these steps:
 - Helm: Gained experience in managing Kubernetes packages and simplifying complex deployments..
 - Docker: Improved my ability to create consistent environments for development, testing, and production.
 - Python: Enhanced my skills in Python for data pipeline automation and management.
+
+</div>
 
 ### Author
 
