@@ -103,13 +103,16 @@ To get started with this project, follow these steps:
 4. **Configuring Airflow:**
 
    ```bash
-   
+   # Makes the Airflow charts available for installation.
    helm repo add apache-airflow https://airflow.apache.org\n
-   
+
+   # Ensures you have the latest version of Airflow charts.
    helm repo update
-   
+
+   # Deploys Apache Airflow into your Kubernetes cluster.
    helm install airflow apache-airflow/airflow --namespace airflow --create-namespace --debug
-   
+
+   # Enables you to access the Airflow web UI locally through port 8080.
    kubectl port-forward svc/airflow-webserver 8080:8080 --namespace airflow
    ```
 
