@@ -47,3 +47,15 @@ This project demonstrates how Kubernetes and Apache Airflow were used to manage 
 ├── values.yaml                    # Configuration for deploying Airflow using Helm
 ├── README.md                      # This file
 └── .gitignore                     # Files ignored by Git
+
+```
+</div>
+
+### What I learned
+	
+- Kubernetes: Mastered deployment and orchestration of containerized applications using Kubernetes.
+- Airflow: Developed an understanding of workflow orchestration and scheduling using Apache Airflow.
+- Helm: Gained experience in managing Kubernetes packages and simplifying complex deployments..
+- Docker: Improved my ability to create consistent environments for development, testing, and production.
+- Python: Enhanced my skills in Python for data pipeline automation and management.
+
