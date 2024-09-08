@@ -22,7 +22,7 @@
 ### Overview
 
 <div style='margin: 20px' id="overview">
-This project demonstrates how Kubernetes and Apache Airflow were used to manage **DAGs** (Directed Acyclic Graphs) for data pipelines in an automated and scalable environment. The primary goal of this project is to implement robust orchestration for data engineering tasks, providing easy scheduling, monitoring, and error handling.
+This project demonstrates how Kubernetes and Apache Airflow were used to manage DAGs (Directed Acyclic Graphs) for data pipelines in an automated and scalable environment. The primary goal of this project is to implement robust orchestration for data engineering tasks, providing easy scheduling, monitoring, and error handling.
 </div>
 
 ### Technologies and Tools Used
