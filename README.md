@@ -119,3 +119,24 @@ To get started with this project, follow these steps:
 - Docker: Improved my ability to create consistent environments for development, testing, and production.
 - Python: Enhanced my skills in Python for data pipeline automation and management.
 
+### Author
+
+---
+
+<!-- <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script> -->
+
+<div align="left" id="author">
+
+<a href="https://github.com/danhenriquex">
+  <img src="https://github.com/danhenriquex.png" width="100" height="100" style="border-radius: 50%"/>
+</a>
+
+<!-- <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="pt_BR" data-type="vertical" data-theme="dark" data-vanity="danilo-henrique-santana"><a class="LI-simple-link" href='https://br.linkedin.com/in/danilo-henrique-santana?trk=profile-badge'>Danilo Henrique</a></div> -->
+</div>
+
+<div style="margin-top: 20px" >
+  <a href="https://www.linkedin.com/in/danilo-henrique-480032167/">
+    <img  src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
+  </a>
+</div>
+
